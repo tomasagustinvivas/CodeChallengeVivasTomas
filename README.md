@@ -21,3 +21,23 @@ Or you can run this via Docker:
 
 # API
 API details can be found on the [publically deployed version of Restful-Booker](https://restful-booker.herokuapp.com/).
+
+
+# Run tests
+
+To run the Playwright tests, follow these steps:
+
+1. Make sure the API server is running locally at http://localhost:3001 (either via Docker or npm).
+
+2. Install dependencies (if you haven't already): 
+    npm install
+
+3. Run all Playwright tests: 
+    npx playwright test
+
+4. To run a specific test file, use:
+    npx playwright test tests/<your-test-file>.ts
+
+
+
+
