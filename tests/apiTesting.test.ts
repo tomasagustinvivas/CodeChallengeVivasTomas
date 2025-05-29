@@ -1,4 +1,3 @@
-//Example Playwright test
 import { test, expect } from '@playwright/test';
 
 const bookingData = {
